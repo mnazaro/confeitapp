@@ -1,0 +1,5 @@
+Coisas a fazer:
+
+- rever o tratamento do pedido desde sua realização até sua conclusão
+(pagamento antes ou depois de iniciar a produção? pagamento antes ou
+depois da retirada/entrega?)
