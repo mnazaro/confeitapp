@@ -1,0 +1,3 @@
+Como armazenar a quantidade de igredientes?
+Como registrar dados de entrega/retirada?
+Como gerar os relatórios?
