@@ -3,3 +3,11 @@ Coisas a fazer:
 - rever o tratamento do pedido desde sua realização até sua conclusão
 (pagamento antes ou depois de iniciar a produção? pagamento antes ou
 depois da retirada/entrega?)
+
+status do pedido, indicando se está em produção ou com a produção finalizada, aguardando retirada/entrega
+
+incluindo o número de vendas, o valor e o lucro obtido
+
+- O sistema deve fornecer resultados corretos em todas as funções, incluindo cálculos de totais e reservas de ingredientes.
+
+Implementar funcionalidades de acessibilidade, como compatibilidade com leitores de tela e ajuste de tamanho de fonte
