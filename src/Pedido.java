@@ -17,12 +17,7 @@ public class Pedido {
     }
 
     public void adicionarProduto(Produto produto) {
-        Produto[] novoArray = new Produto[produtos.length + 1];
-        for (int i = 0; i < produtos.length; i++) {
-            novoArray[i] = produtos[i];
-        }
-        novoArray[novoArray.length - 1] = produto;
-        produtos = novoArray;
+        
     }
 
     public String atualizarStatus(String status) {

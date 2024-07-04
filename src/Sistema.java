@@ -6,31 +6,30 @@ public class Sistema {
     private Pedido[] pedidos;
 
     public void novoPedido() {
-        pedidos = new Pedido[pedidos.length + 1];
     
     }
 
     public void entrarProduto(String nome, double custo, int quantitade){
-        pedidos[pedidos.length - 1].adicionarProduto(new Produto(custo, "grande", nome, "modo de preparo", "sabor"));
+        
     }
 
     public void selecionarProduto(String nome){
 
     }
 
-    public void cadastrarProduto(String nome, double custo, String tamanho, String modoPreparo, String sabor){
-        catalogo.adicionarProduto(new Produto(custo, tamanho, nome, modoPreparo, sabor));
+    public String cadastrarProduto(String nome, double custo, String tamanho, String modoPreparo, String sabor){
+
     }
 
     public void receberPagamento(double valorRecebido, Pedido pedido){
-        pedido.comparaValor(pedido.getValor(), valorRecebido);
+
     }
 
     public void registrarPedidoConcluido(Pedido pedido){
-        pedidos[pedidos.length - 1] = pedido;
+
     }
 
-
+    // Verifica se o produto existe no estoque, caso não exista, cria um novo
     public void reporEstoque(int quantidade, String nome, double preco, Date validade){
 
     }
@@ -39,16 +38,15 @@ public class Sistema {
 
     }
 
-    public Pedidos[] gerarRelatorio(Date inicio, Date fim){
+    public Pedido[] gerarRelatorio(Date inicio, Date fim){
 
     }
 
-    public Pedidos[] filtrarIntervalo(Date inicio, Date fim){
+    public Pedido[] filtrarIntervalo(Date inicio, Date fim){
 
     }
 
-    public Pedidos[] listarPedidos(){
-
+    public Pedido[] listarPedidos(){;
     }
 
     public Pedido escolherPedido(Pedido pedido){
