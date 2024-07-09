@@ -5,7 +5,7 @@ public class Catalogo {
 
     }
 
-    public void atualizarProduto(String modoPreparo){
+    public void atualizarProduto(Produto produto, String ingredientes, String modoPreparo){
 
     }
 

@@ -4,19 +4,19 @@ public class Pedido {
     private String status;
     private Date data;
     private String cliente;
-    private double valor;
+    private float valor;
+    private Date dataEntrega;
+    private String endereco;
+    private float valorPago;
     private Produto[] produtos;
-    private Pagamento pagamento;
 
-    public Pedido(String status, Date data, String cliente, double valor, Produto[] produtos) {
-        this.status = status;
-        this.data = data;
+    public Pedido(String cliente, String endereco, Date dataEntrega) {
         this.cliente = cliente;
-        this.valor = valor;
-        this.produtos = produtos;
+        this.endereco = endereco;
+        this.dataEntrega = dataEntrega;
     }
 
-    public void adicionarProduto(Produto produto) {
+    public void entrarProduto(String nome, int quantidade) {
         
     }
 
@@ -25,7 +25,11 @@ public class Pedido {
         return this.status;
     }
 
-    public void comparaValor(double valor, double valorRecebido){
+    public void comparaValor(float valor, float valorRecebido){
 
+    }
+
+    public float calcularTotal(){
+        return float;
     }
 }

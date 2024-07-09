@@ -1,18 +1,14 @@
 public class Produto {
     
-    private double custo;
-    private String tamanho;
+    private float preco;
     private String nome;
     private String modoPreparo;
-    private String sabor;
     private Estoque estoque;
 
-    public Produto(double custo, String tamanho, String nome, String modoPreparo, String sabor) {
-        this.custo = custo;
-        this.tamanho = tamanho;
+    public Produto(float preco, String ingredientes, String nome, String modoPreparo) {
+        this.preco = preco;
         this.nome = nome;
         this.modoPreparo = modoPreparo;
-        this.sabor = sabor;
     }
 
     public void reservarIngredientes(int quantidade, String nome){
